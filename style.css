@@ -73,10 +73,10 @@ a {
 
 .text button {
     background-color: #3882f6;
-    color: #f9faf8;s
+    color: #f9faf8;
     font-weight: bold;
-    padding: 8px;
-    border-radius: 10px;
+    padding: 10px 20px;
+    border-radius: 7px;
     border: none;
 }
 
@@ -127,7 +127,7 @@ h2 {
     font-size: 36px;
     color: #1f2937;
     font-weight: 300;
-    padding-top: 50px;
+    padding: 50px 100px 0 100px;
     font-style: italic;
 }
 
@@ -135,6 +135,43 @@ h2 {
     font-weight: bold;
     font-size: 24px;
     text-align: right;
-    padding-right: 18px;
+    padding-right: 100px;
     padding-bottom: 50px;
 }
+
+.section4 {
+    margin: 50px 0;
+}
+
+.sub-section4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 50px 100px;
+    background-color: #3882f6;
+    border-radius: 10px;
+}
+
+.signup-text1 {
+    font-weight: bold;
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.signup-text2 {
+    color: #f9faf8;
+}
+
+.button-bottom {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-style: solid;
+    border-color: #f9faf8;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 7px;
+}
+
